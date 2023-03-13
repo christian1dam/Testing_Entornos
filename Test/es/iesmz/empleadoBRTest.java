@@ -8,7 +8,6 @@ class empleadoBRTest {
         public void imprimirMensaje(){
             System.out.println("EXECUTE TEST");
         }
-
         @Test
         void testCalcularSalarioBruto() {
             float resultadoReal = EmpleadoBR.calcularSalarioBruto(TipoEmpleado.vendedor, 2000.0f, 8.0f);
